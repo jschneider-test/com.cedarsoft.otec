@@ -25,6 +25,7 @@ Eclipse Integration
   http://wiki.eclipse.org/EGit/User_Guide
   http://wiki.eclipse.org/EGit/Git_For_Eclipse_Users
   http://wiki.eclipse.org/EGit/User_Guide#Create_Repository_at_GitHub
+  http://wiki.eclipse.org/EGit/User_Guide#Create_Repository_at_GitHub
 
 
 Benötigte Plugins
@@ -37,6 +38,13 @@ m2eclipse (http://m2eclipse.sonatype.org/)
 	Update-Site: http://m2eclipse.sonatype.org/sites/m2e
 	Installations-Anleitung: http://m2eclipse.sonatype.org/installing-m2eclipse.html
 
+
+Git Configuration
+-----------------------------------------
+Kann bequem aus Eclipse heraus durchgeführt werden.
+Wichtig insbesondere:
+ <user.email>
+ <user.name>
 
 Git Configuration
 -----------------------------------------
@@ -95,6 +103,41 @@ Team --> Branch --> New Branch {Featurebranch}
 Commit
 ---------------------------------------
 Team --> Commit
+
+Merge mit Hauptbranch
+---------------------------------------
+In Hauptbranch wechseln:
+  Team --> Branch {Hauptbranch}
+Changes mergen:
+  Team --> Merge {Featurebranch}
+
+Push
+---------------------------------------
+
+
+Fetching changes from central repo
+====================================
+In Eclipse über
+Team --> Fetch From...
+  http://github.com/jschneider/com.cedarsoft.otec.git
+Team --> Merge (with origin/master)
+
+Alternativ über github.com Weboberfläche
+github --> Eigenes Repository --> Fork Queue
+
+
+Pull Request
+====================================
+Nach Abschluss der Lösung, bitte einen Pull Request stellen. Bitte insbesondere den Target-Branch beachten.
+Falls noch kein persönlicher Target-Branch vorhanden ist, bitte im Kommentar vermerken.
+
+http://help.github.com/pull-requests/
+
+
+
+
+
+
 
 Merge mit Hauptbranch
 ---------------------------------------

@@ -27,8 +27,8 @@
          xsi:schemaLocation="http://maven.apache.org/DECORATION/1.0.0 http://maven.apache.org/xsd/decoration-1.0.0.xsd">
 
   <bannerLeft>
-    <name>${project.name}</name>
-    <src>http://cedarsoft.org/com.cedarsoft/$artifactId.jpg</src>
+    <name>Übungsaufgaben Objecttechnologien</name>
+    <!--<src>http://cedarsoft.org/com.cedarsoft/$artifactId.jpg</src>-->
     <href>index.html</href>
   </bannerLeft>
 

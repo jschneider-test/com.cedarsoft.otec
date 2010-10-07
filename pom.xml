@@ -24,6 +24,10 @@
     <developerConnection>scm:git:ssh://git@github.com:jschneider/com.cedarsoft.otec.git</developerConnection>
   </scm>
 
+  <organization>
+  	<name>Hochschule Reutlingen</name>
+  	<url>http://www.reutlingen-university.de/</url>
+  </organization>
   <dependencies>
     <!--Guava-->
     <dependency>

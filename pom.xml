@@ -20,8 +20,8 @@
   </modules>
 
   <scm>
-    <connection>scm:git:git://git.cedarsoft.com/com.cedarsoft.otec</connection>
-    <developerConnection>scm:git:ssh://git.cedarsoft.com/home/git/com.cedarsoft.otec</developerConnection>
+    <connection>scm:git:git://git://github.com/jschneider/com.cedarsoft.otec.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:jschneider/com.cedarsoft.otec.git</developerConnection>
   </scm>
 
   <dependencies>

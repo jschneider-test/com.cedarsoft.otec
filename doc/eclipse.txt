@@ -106,3 +106,32 @@ Changes mergen:
 Push
 ---------------------------------------
 Team --> Push
+
+
+Fetching changes from central repo
+====================================
+In Eclipse über
+Team --> Fetch From...
+  http://github.com/jschneider/com.cedarsoft.otec.git
+Team --> Merge (with origin/master)
+
+Alternativ über github.com Weboberfläche
+github --> Eigenes Repository --> Fork Queue
+
+
+Pull Request
+====================================
+Nach Abschluss der Lösung, bitte einen Pull Request stellen. Bitte insbesondere den Target-Branch beachten.
+Falls noch kein persönlicher Target-Branch vorhanden ist, bitte im Kommentar vermerken.
+
+http://help.github.com/pull-requests/
+
+
+
+
+
+
+
+
+
+

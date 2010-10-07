@@ -22,6 +22,9 @@
 
 Eclipse Integration
 ====================================================
+  http://wiki.eclipse.org/EGit/User_Guide
+  http://wiki.eclipse.org/EGit/Git_For_Eclipse_Users
+
 
 Benötigte Plugins
 ---------------------------------------
@@ -36,6 +39,7 @@ m2eclipse (http://m2eclipse.sonatype.org/)
 
 Repository clone in Eclipse
 ---------------------------------------
+(http://wiki.eclipse.org/EGit/User_Guide#Starting_the_import_wizard)
 File --> Import
 Git - Projects from Git
 Clone...
@@ -59,7 +63,6 @@ Root Directory: ${workspace}/com.cedarsoft.otec
 Das Maven-Projekt wird automatisch mit allen Modulen angelegt.
 
 
-
 Git Plugin für Projekt konfigurieren
 ---------------------------------------
 Team --> Share Project
@@ -67,14 +70,19 @@ Git
 vorhandenen Eintrag auswählen
 
 
+
+Daily work
+=================================
+http://wiki.eclipse.org/EGit/User_Guide#Working_with_remote_Repositories
+
 Fetch/Merge
 ---------------------------------------
 Team --> Fetch From
+Team --> Merge
 
 Commit
 ---------------------------------------
 Team --> Commit
-Push nicht vergessen!
 Team --> Push
 
 

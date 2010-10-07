@@ -51,10 +51,16 @@
     </dependency>
   </dependencies>
 
-  <mailingLists>
-    <mailingList>
-      <name>Mail Support</name>
-      <post>info@cedarsoft.com</post>
-    </mailingList>
-  </mailingLists>
+  <licenses>
+    <license>
+      <name>GLPv2</name>
+      <url>http://www.gnu.org/licenses/gpl-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <properties>
+    <license.header.url>http://cedarsoft.org/gpl2_plain.header</license.header.url>
+  </properties>
+
 </project>

@@ -27,12 +27,18 @@
          xsi:schemaLocation="http://maven.apache.org/DECORATION/1.0.0 http://maven.apache.org/xsd/decoration-1.0.0.xsd">
 
   <bannerLeft>
-    <name>Übungsaufgaben Objecttechnologien</name>
-    <!--<src>http://cedarsoft.org/com.cedarsoft/$artifactId.jpg</src>-->
-    <href>index.html</href>
+    <!--<name>Übungsaufgaben Objecttechnologien</name>-->
+    <!--<href>index.html</href>-->
+    <src>http://maven.apache.org/images/apache-maven-project-2.png</src>
   </bannerLeft>
 
   <body>
+    <breadcrumbs>
+      <item name="cedarsoft" href="http://www.cedarsoft.com" />
+      <!--<item href="http://cedarsoft.org/" name="Open" />-->
+      <item name="otec" />
+    </breadcrumbs>
+
 
     <menu name="Overview">
       <item name="Introduction" href="index.html" />
@@ -46,4 +52,10 @@
     <menu ref="parent" inherit="bottom" />
     <menu ref="reports" inherit="bottom" />
   </body>
+
+  <skin>
+    <groupId>org.apache.maven.skins</groupId>
+    <artifactId>maven-stylus-skin</artifactId>
+    <version>1.2</version>
+  </skin>
 </project>

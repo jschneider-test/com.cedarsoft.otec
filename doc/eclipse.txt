@@ -1,0 +1,82 @@
+====
+    Licensed under the GNU General Public License version 2 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+           http://www.gnu.org/licenses/gpl-2.0.txt
+
+    This code is free software; you can redistribute it and/or modify it
+    under the terms of the GNU General Public License version 2 only, as
+    published by the Free Software Foundation.
+
+    This code is distributed in the hope that it will be useful, but WITHOUT
+    ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+    FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
+    version 2 for more details (a copy is included in the LICENSE file that
+    accompanied this code).
+
+    You should have received a copy of the GNU General Public License version
+    2 along with this work; if not, write to the Free Software Foundation,
+    Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+====
+
+Eclipse Integration
+====================================================
+
+Benötigte Plugins
+---------------------------------------
+
+EGit (http://www.eclipse.org/egit/)
+	Update-Site: http://download.eclipse.org/egit/updates
+
+m2eclipse (http://m2eclipse.sonatype.org/)
+	Update-Site: http://m2eclipse.sonatype.org/sites/m2e
+	Installations-Anleitung: http://m2eclipse.sonatype.org/installing-m2eclipse.html
+
+
+Repository clone in Eclipse
+---------------------------------------
+File --> Import
+Git - Projects from Git
+Clone...
+  URI:
+    git@github.com:jschneider/com.cedarsoft.otec.git (per SSH)
+    https://jschneider@github.com/jschneider/com.cedarsoft.otec.git (per HTTP)
+
+Branches auswählen (master)
+--> Fertigstellen
+
+
+Das Repository wird dann ausgecheckt. Ein Projekt wird aber *nicht* angelegt.
+
+
+Projekt in Eclipse importieren
+---------------------------------------
+File --> Import
+Maven --> Existing Maven Projects
+Root Directory: ${workspace}/com.cedarsoft.otec
+
+Das Maven-Projekt wird automatisch mit allen Modulen angelegt.
+
+
+
+Git Plugin für Projekt konfigurieren
+---------------------------------------
+Team --> Share Project
+Git
+vorhandenen Eintrag auswählen
+
+
+Fetch/Merge
+---------------------------------------
+Team --> Fetch From
+
+Commit
+---------------------------------------
+Team --> Commit
+Push nicht vergessen!
+Team --> Push
+
+
+
+

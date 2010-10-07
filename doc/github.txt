@@ -1,0 +1,16 @@
+Notwendige Schritte, um auf ein Repository bei GitHub zugreifen zu können:
+-------------------------------------------------------------------------------
+
+* Signup (Free Account)
+* SSH-Key hinterlegen
+  Ein SSH-Key kann direkt in Eclipse generiert und hinterlegt werden.
+
+
+Repository Fork erstellen:
+-------------------------------------------------------------------------------
+Auf: http://github.com/jschneider/com.cedarsoft.otec
+"Fork"
+
+Dieses Repository dann in Eclipse importieren...
+
+

@@ -24,6 +24,7 @@ Eclipse Integration
 ====================================================
   http://wiki.eclipse.org/EGit/User_Guide
   http://wiki.eclipse.org/EGit/Git_For_Eclipse_Users
+  http://wiki.eclipse.org/EGit/User_Guide#Create_Repository_at_GitHub
 
 
 Benötigte Plugins
@@ -37,15 +38,21 @@ m2eclipse (http://m2eclipse.sonatype.org/)
 	Installations-Anleitung: http://m2eclipse.sonatype.org/installing-m2eclipse.html
 
 
+Git Configuration
+-----------------------------------------
+Kann bequem aus Eclipse heraus durchgeführt werden.
+Wichtig insbesondere:
+ <user.email>
+ <user.name>
+
 Repository clone in Eclipse
 ---------------------------------------
 (http://wiki.eclipse.org/EGit/User_Guide#Starting_the_import_wizard)
 File --> Import
 Git - Projects from Git
 Clone...
-  URI:
-    git@github.com:jschneider/com.cedarsoft.otec.git (per SSH)
-    https://jschneider@github.com/jschneider/com.cedarsoft.otec.git (per HTTP)
+  URI: (aus github.com Weboberfläche)
+    git@github.com:jschneider/com.cedarsoft.otec.git
 
 Branches auswählen (master)
 --> Fertigstellen
@@ -78,13 +85,24 @@ http://wiki.eclipse.org/EGit/User_Guide#Working_with_remote_Repositories
 Fetch/Merge
 ---------------------------------------
 Team --> Fetch From
-Team --> Merge
+Team --> Merge (with origin/master)
+
+
+Feature-Branch erzeugen
+---------------------------------------
+Team --> Branch --> New Branch {Featurebranch}
 
 Commit
 ---------------------------------------
 Team --> Commit
+
+Merge mit Hauptbranch
+---------------------------------------
+In Hauptbranch wechseln:
+  Team --> Branch {Hauptbranch}
+Changes mergen:
+  Team --> Merge {Featurebranch}
+
+Push
+---------------------------------------
 Team --> Push
-
-
-
-
